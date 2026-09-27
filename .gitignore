@@ -1,0 +1,15 @@
+# Windows event log exports may contain sensitive authentication data.
+*.evtx
+*.xml
+
+# Generated reports can include usernames, hostnames, and IP addresses.
+relatorio*.txt
+report*.txt
+
+# Python artifacts and virtual environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
